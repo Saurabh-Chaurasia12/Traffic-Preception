@@ -10,11 +10,6 @@ opencv-python
 numpy
 matplotlib
 tensorrt
-flask
-torch
-ultralytics
-opencv-python
 gunicorn
-firebase-admin
 werkzeug
 gdown
