@@ -8,6 +8,8 @@ from werkzeug.utils import secure_filename
 import threading
 
 app = Flask(__name__)
+UPLOAD_FOLDER = "uploads"
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = 'uploads/'
 
 # Load YOLOv8 model
