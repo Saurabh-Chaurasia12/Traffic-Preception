@@ -46,11 +46,12 @@ python preprocess.py --video /path/to/video --output /path/to/output
 ## 🚀 Setup and Execution
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-repo/traffic-monitoring.git
-cd traffic_
+git clone https://github.com/Saurabh-Chaurasia12/Traffic-Preception.git
+cd Traffic-Preception
 ```
 
 ### 2️⃣ Install Dependencies
+Run this install required dependencies
 ```sh
 pip install -r requirements.txt
 ```
@@ -58,13 +59,14 @@ pip install -r requirements.txt
 ### 4️⃣ Run the Web Application
 To deploy the model using Flask:
 ```sh
-python app/app.py
+python app.py
 ```
+then put this on your browser http://127.0.0.1:5000
 
 ## 🎥 Real-Time Monitoring Demo
 This GIF showcases our model in action, detecting vehicles and analyzing traffic conditions in real-time.
 
-![Real-Time Traffic Analysis GIF](Running_Real-Time_Traffic_Analysis.gif) 
+![Real-Time Traffic Analysis GIF](ezgif-1e4a381f6aa4c8.gif) 
 
 ## 📌 Future Enhancements
 - Integration with cloud storage for scalability.
